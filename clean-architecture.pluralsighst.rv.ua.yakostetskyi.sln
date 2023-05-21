@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1E3EF063-BF54-4735-B5EC-9E178B6338BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6F3B7284-DB44-48DF-9DC3-D37EFB962A8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{52C206E8-4EB1-4329-9AF2-65D530F5B62E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7DF70918-D529-43F3-9FED-8C7E8B1AEE09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41A833B7-36D7-463F-AEC4-6D00200040BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{75FC150E-6C96-40E3-9919-B33D2616813B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GloboTicket.TicketManagement.Domain", "GloboTicket.TicketManagement.Domain\GloboTicket.TicketManagement.Domain.csproj", "{30C00FEC-4DBC-40A1-B97D-B6DCF9705BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{315ABBEF-4939-4998-A69C-4453227C0D85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30C00FEC-4DBC-40A1-B97D-B6DCF9705BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C00FEC-4DBC-40A1-B97D-B6DCF9705BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C00FEC-4DBC-40A1-B97D-B6DCF9705BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C00FEC-4DBC-40A1-B97D-B6DCF9705BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E3EF063-BF54-4735-B5EC-9E178B6338BE} = {41A833B7-36D7-463F-AEC4-6D00200040BE}
+		{6F3B7284-DB44-48DF-9DC3-D37EFB962A8F} = {41A833B7-36D7-463F-AEC4-6D00200040BE}
+		{52C206E8-4EB1-4329-9AF2-65D530F5B62E} = {41A833B7-36D7-463F-AEC4-6D00200040BE}
+		{7DF70918-D529-43F3-9FED-8C7E8B1AEE09} = {41A833B7-36D7-463F-AEC4-6D00200040BE}
+		{30C00FEC-4DBC-40A1-B97D-B6DCF9705BB2} = {6F3B7284-DB44-48DF-9DC3-D37EFB962A8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93FB4155-459A-44B4-BF9D-0DF7DC294B45}
+	EndGlobalSection
+EndGlobal
